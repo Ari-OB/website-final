@@ -1,0 +1,95 @@
+html {
+    background-color: bisque;
+    color: #1d1d1d;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(patron.png);
+}
+
+#galeria {
+    align-items: center;
+    justify-content: space-between;
+    display: table;
+    background-color: rgb(222, 184, 135);
+    padding: 0.8, 5rem 5px;
+    border-radius: 4%;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+a:link {
+    color: rgb(189, 91, 0)
+}
+
+a:visited {
+    color: #0E710E;
+}
+
+a:hover {
+    color: rgb(29, 29, 29)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    padding: 0.8, 2rem;
+    border-radius: 4%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgb(158, 118, 66);
+}
+
+h1.texto {
+    text-align: center;
+}
+
+div.galeria1 img {
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(158, 118, 66);
+}
+
+.galeria {
+  align-items: center; 
+  float: left;
+}
+
+div.desc {
+    text-align: center;
+    padding: 9px;
+}
+
+div.galeria1 :hover {
+    transform: rotate(-1deg);
+}
+
+.galeria1 {
+  align-items: center; 
+  float: left;
+}
+.fotos{
+    float: left;
+  padding: 5px;
+  transform: scale(0.9);
+}
+
+hr {
+    background-color: bisque;
+}
+
+footer {
+    text-align: center;
+}
+
+footer :hover {
+    transform: scale(1.1);
+}
